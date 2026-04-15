@@ -20,6 +20,6 @@ It fetches real-time exchange rates from an API and converts between currencies.
 
 Practice working with APIs, fetch requests, and handling real-time data.
 
-🌐 Live Demo
+## 🌐 Live Demo
 
 👉 (https://mohamed-abdalla-dev.github.io/Currency-API/)
