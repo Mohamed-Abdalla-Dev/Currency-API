@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency API</title>
+    <link rel="stylesheet" href="./min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>محول العملات المباشر</h1>
+      <div class="input-section">
+        <label>المبلغ بالدولار (USD)</label>
+        <input type="number" id="usd-amount" value="100" />
+      </div>
+
+      <div class="cards-grid">
+        <!-- الجنيه السوداني -->
+        <div class="card sdg-card">
+          <h3>الجنيه السوداني (SDG)</h3>
+          <p id="sdg-price">جاري التحميل...</p>
+        </div>
+        <!-- الريال السعودي -->
+        <div class="card sar-card">
+          <h3>الريال السعودي (SAR)</h3>
+          <p id="sar-price">جاري التحميل...</p>
+        </div>
+        <!-- اليورو -->
+        <div class="card eur-card">
+          <h3>اليورو (EUR)</h3>
+          <p id="eur-price">جاري التحميل...</p>
+        </div>
+        <!-- الجنيه المصري -->
+        <div class="card egp-card">
+          <h3>الجنيه المصري (EGP)</h3>
+          <p id="egp-price">جاري التحميل...</p>
+        </div>
+      </div>
+      <p class="footer-note">تحديث تلقائي عبر ExchangeRate-API</p>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
